@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wgt@500;600&display=swap");
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #eaeff1;
+    font-family: "Raleway", sans-serif;
+}
+
+#container {
+    max-width: 300px;
+    
+    /*This centers the container in the middle */
+    margin: 0 auto;
+
+    /* this adds an empty space above the container which is
+    20% of the view height*/
+    margin-top: 20vh;
+}
+
+.card {
+    /* this changes the background color to white */
+    background-color: white;
+
+    /* this adds a border */
+    border: 1px solid #bacdd8;
+
+    /* this adds space between the border and the content */
+    padding: 8px;
+
+    border-radius: 12px;
+}
+
+/* this styles the classes with a tag element */
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697
+}
+
+/* this styles elements that have a class of name */
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+/* this styles the p element */
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+
+/* styles the button element */
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+
+    margin: 0 auto;
+    display: block;
+
+    /* this button is a clickable element, so when over the
+    button it changes to a pointer cursor */
+    cursor: pointer;
+}
+
+/* this adds space around the details */
+.card_details {
+    padding: 16px 8px 8px 8px;
+}
+
+/* adds style when button is focused or hovered upon */
+button:focus,
+button:hover{
+    background-color: #0077ff;
+    color: #e0efff;
+}
